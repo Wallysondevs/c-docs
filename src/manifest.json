@@ -1,0 +1,2713 @@
+{
+ "sections": [
+  {
+   "id": "intro",
+   "label": "Introducao",
+   "icon": "Home",
+   "groups": [
+    {
+     "label": "Geral",
+     "items": [
+      {
+       "path": "11",
+       "label": "C11"
+      },
+      {
+       "path": "17",
+       "label": "C17"
+      },
+      {
+       "path": "23",
+       "label": "C23"
+      },
+      {
+       "path": "95",
+       "label": "C95"
+      },
+      {
+       "path": "99",
+       "label": "C99"
+      },
+      {
+       "path": "comment",
+       "label": "Comentários"
+      },
+      {
+       "path": "compiler_support",
+       "label": "Suporte a compiladores C"
+      },
+      {
+       "path": "current_status",
+       "label": "Status atual"
+      },
+      {
+       "path": "header",
+       "label": "Cabeçalhos da Biblioteca Padrão C"
+      },
+      {
+       "path": "index",
+       "label": "Índice de Símbolos"
+      },
+      {
+       "path": "language",
+       "label": "Linguagem C"
+      },
+      {
+       "path": "links",
+       "label": "Recursos úteis"
+      },
+      {
+       "path": "utility",
+       "label": "Biblioteca de utilidades"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "language",
+   "label": "Linguagem C",
+   "icon": "BookText",
+   "groups": [
+    {
+     "label": "Linguagem C",
+     "items": [
+      {
+       "path": "language",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "language/_Alignas",
+       "label": "_Alignas (desde C11)(obsoleto em C23), alignas (desde C23)"
+      },
+      {
+       "path": "language/alignas",
+       "label": "_Alignas (desde C11)(obsoleto em C23), alignas (desde C23)"
+      },
+      {
+       "path": "language/_Alignof",
+       "label": "_Alignof (desde C11)(obsoleto em C23), alignof (desde C23) operador"
+      },
+      {
+       "path": "language/alignof",
+       "label": "_Alignof (desde C11)(obsoleto em C23), alignof (desde C23) operador"
+      },
+      {
+       "path": "language/analyzability",
+       "label": "Analisabilidade"
+      },
+      {
+       "path": "language/variadic",
+       "label": "Argumentos Variádicos"
+      },
+      {
+       "path": "language/asm",
+       "label": "Assembly inline"
+      },
+      {
+       "path": "language/_Static_assert",
+       "label": "Asserção estática (desde C11)"
+      },
+      {
+       "path": "language/static_assert",
+       "label": "Asserção estática (desde C11)"
+      },
+      {
+       "path": "language/attributes/deprecated",
+       "label": "Atributo C: deprecated (desde C23)"
+      },
+      {
+       "path": "language/attributes/fallthrough",
+       "label": "Atributo C: fallthrough (desde C23)"
+      },
+      {
+       "path": "language/attributes/maybe_unused",
+       "label": "Atributo C: maybe_unused (desde C23)"
+      },
+      {
+       "path": "language/attributes/nodiscard",
+       "label": "Atributo C: nodiscard (desde C23)"
+      },
+      {
+       "path": "language/attributes/noreturn",
+       "label": "Atributo C: noreturn, _Noreturn (desde C23)"
+      },
+      {
+       "path": "language/attributes/reproducible",
+       "label": "Atributo C: unsequenced, reproducible (desde C23)"
+      },
+      {
+       "path": "language/name_space",
+       "label": "Busca e espaços de nomes"
+      },
+      {
+       "path": "language/auto",
+       "label": "c/language/auto"
+      },
+      {
+       "path": "language/bit_field",
+       "label": "Campos de bits"
+      },
+      {
+       "path": "language/value_category",
+       "label": "Categorias de valor"
+      },
+      {
+       "path": "language/behavior",
+       "label": "Comportamento indefinido"
+      },
+      {
+       "path": "language/basic_concepts",
+       "label": "Conceitos básicos"
+      },
+      {
+       "path": "language/conformance",
+       "label": "Conformidade"
+      },
+      {
+       "path": "language/charset",
+       "label": "Conjuntos de caracteres e codificações"
+      },
+      {
+       "path": "language/character_constant",
+       "label": "Constante de caractere"
+      },
+      {
+       "path": "language/nullptr",
+       "label": "Constante de ponteiro nulo predefinida (desde C23)"
+      },
+      {
+       "path": "language/floating_constant",
+       "label": "Constante de ponto flutuante"
+      },
+      {
+       "path": "language/integer_constant",
+       "label": "Constante inteira"
+      },
+      {
+       "path": "language/bool_constant",
+       "label": "Constantes Booleanas Predefinidas (desde C23)"
+      },
+      {
+       "path": "language/conversion",
+       "label": "Conversões implícitas"
+      },
+      {
+       "path": "language/array",
+       "label": "Declaração de Array"
+      },
+      {
+       "path": "language/pointer",
+       "label": "Declaração de Ponteiro"
+      },
+      {
+       "path": "language/struct",
+       "label": "Declaração de struct"
+      },
+      {
+       "path": "language/union",
+       "label": "Declaração de união"
+      },
+      {
+       "path": "language/typedef",
+       "label": "Declaração typedef"
+      },
+      {
+       "path": "language/declarations",
+       "label": "Declarações"
+      },
+      {
+       "path": "language/function_declaration",
+       "label": "Declarações de função"
+      },
+      {
+       "path": "language/function_definition",
+       "label": "Definições de função"
+      },
+      {
+       "path": "language/extern",
+       "label": "Definições externas e tentativas"
+      },
+      {
+       "path": "language/thread_storage_duration",
+       "label": "Duração de armazenamento de thread"
+      },
+      {
+       "path": "language/static_storage_duration",
+       "label": "Duração de armazenamento estática"
+      },
+      {
+       "path": "language/enum",
+       "label": "Enumerações"
+      },
+      {
+       "path": "language/scope",
+       "label": "Escopo"
+      },
+      {
+       "path": "language/file_scope",
+       "label": "Escopo de Arquivo"
+      },
+      {
+       "path": "language/constexpr",
+       "label": "especificador constexpr (desde C23)"
+      },
+      {
+       "path": "language/_Noreturn",
+       "label": "Especificador de função _Noreturn (desde C11)(obsoleto em C23)"
+      },
+      {
+       "path": "language/inline",
+       "label": "especificador de função inline"
+      },
+      {
+       "path": "language/storage_duration",
+       "label": "Especificadores de classe de armazenamento"
+      },
+      {
+       "path": "language/expressions",
+       "label": "Expressões"
+      },
+      {
+       "path": "language/constant_expression",
+       "label": "Expressões Constantes"
+      },
+      {
+       "path": "language/translation_phases",
+       "label": "Fases de tradução"
+      },
+      {
+       "path": "language/main_function",
+       "label": "Função main"
+      },
+      {
+       "path": "language/functions",
+       "label": "Funções"
+      },
+      {
+       "path": "language/history",
+       "label": "Histórico do C"
+      },
+      {
+       "path": "language/identifier",
+       "label": "Identificador"
+      },
+      {
+       "path": "language/initialization",
+       "label": "Inicialização"
+      },
+      {
+       "path": "language/array_initialization",
+       "label": "Inicialização de arrays"
+      },
+      {
+       "path": "language/struct_initialization",
+       "label": "Inicialização de struct e union"
+      },
+      {
+       "path": "language/scalar_initialization",
+       "label": "Inicialização escalar"
+      },
+      {
+       "path": "language/break",
+       "label": "Instrução break"
+      },
+      {
+       "path": "language/continue",
+       "label": "instrução continue"
+      },
+      {
+       "path": "language/goto",
+       "label": "instrução goto"
+      },
+      {
+       "path": "language/if",
+       "label": "instrução if"
+      },
+      {
+       "path": "language/return",
+       "label": "Instrução return"
+      },
+      {
+       "path": "language/switch",
+       "label": "instrução switch"
+      },
+      {
+       "path": "language/statements",
+       "label": "Instruções"
+      },
+      {
+       "path": "language/do",
+       "label": "laço do-while"
+      },
+      {
+       "path": "language/for",
+       "label": "laço for"
+      },
+      {
+       "path": "language/while",
+       "label": "laço while"
+      },
+      {
+       "path": "language/compound_literal",
+       "label": "Literais compostos (desde C99)"
+      },
+      {
+       "path": "language/string_literal",
+       "label": "Literais de string"
+      },
+      {
+       "path": "language/memory_model",
+       "label": "Modelo de Memória"
+      },
+      {
+       "path": "language/ndr",
+       "label": "No Diagnostic Required"
+      },
+      {
+       "path": "language/object",
+       "label": "Objetos e alinhamento"
+      },
+      {
+       "path": "language/cast",
+       "label": "operador de cast"
+      },
+      {
+       "path": "language/sizeof",
+       "label": "operador sizeof"
+      },
+      {
+       "path": "language/operator_arithmetic",
+       "label": "Operadores aritméticos"
+      },
+      {
+       "path": "language/operator_member_access",
+       "label": "Operadores de acesso a membros"
+      },
+      {
+       "path": "language/operator_assignment",
+       "label": "Operadores de atribuição"
+      },
+      {
+       "path": "language/operator_comparison",
+       "label": "Operadores de Comparação"
+      },
+      {
+       "path": "language/operator_incdec",
+       "label": "Operadores de incremento/decremento"
+      },
+      {
+       "path": "language/operator_alternative",
+       "label": "Operadores e tokens alternativos"
+      },
+      {
+       "path": "language/operator_logical",
+       "label": "Operadores Lógicos"
+      },
+      {
+       "path": "language/typeof",
+       "label": "Operadores typeof (desde C23)"
+      },
+      {
+       "path": "language/typeof_unqual",
+       "label": "Operadores typeof (desde C23)"
+      },
+      {
+       "path": "language/eval_order",
+       "label": "Ordem de avaliação"
+      },
+      {
+       "path": "language/operator_other",
+       "label": "Outros operadores"
+      },
+      {
+       "path": "language/punctuators",
+       "label": "Pontuação"
+      },
+      {
+       "path": "language/operator_precedence",
+       "label": "Precedência de Operadores C"
+      },
+      {
+       "path": "language/const",
+       "label": "qualificador de tipo const"
+      },
+      {
+       "path": "language/restrict",
+       "label": "qualificador de tipo restrict (desde C99)"
+      },
+      {
+       "path": "language/volatile",
+       "label": "qualificador de tipo volatile"
+      },
+      {
+       "path": "language/as_if",
+       "label": "Regra as-if"
+      },
+      {
+       "path": "language/generic",
+       "label": "Seleção genérica (desde C11)"
+      },
+      {
+       "path": "language/attributes",
+       "label": "Sequência de especificadores de atributo (desde C23)"
+      },
+      {
+       "path": "language/escape",
+       "label": "Sequências de escape"
+      },
+      {
+       "path": "language/ascii",
+       "label": "Tabela ASCII"
+      },
+      {
+       "path": "language/lifetime",
+       "label": "Tempo de Vida"
+      },
+      {
+       "path": "language/compatible_type",
+       "label": "Tipo"
+      },
+      {
+       "path": "language/type",
+       "label": "Tipo"
+      },
+      {
+       "path": "language/types",
+       "label": "Tipo"
+      },
+      {
+       "path": "language/arithmetic_types",
+       "label": "Tipos aritméticos"
+      },
+      {
+       "path": "language/atomic",
+       "label": "Tipos Atômicos"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "keyword",
+   "label": "Palavras-chave",
+   "icon": "Key",
+   "groups": [
+    {
+     "label": "Palavras-chave",
+     "items": [
+      {
+       "path": "keyword",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "keyword/_Alignas",
+       "label": "Palavras-chave C: _Alignas (desde C11)(obsoleto em C23)"
+      },
+      {
+       "path": "keyword/_Alignof",
+       "label": "Palavras-chave C: _Alignof (desde C11)(obsoleto em C23)"
+      },
+      {
+       "path": "keyword/_Atomic",
+       "label": "Palavras-chave C: _Atomic (desde C11)"
+      },
+      {
+       "path": "keyword/_Bool",
+       "label": "Palavras-chave C: _Bool (desde C99)(obsoleto em C23)"
+      },
+      {
+       "path": "keyword/_Complex",
+       "label": "Palavras-chave C: _Complex (desde C99)"
+      },
+      {
+       "path": "keyword/_Decimal128",
+       "label": "Palavras-chave C: _Decimal128 (desde C23)"
+      },
+      {
+       "path": "keyword/_Decimal32",
+       "label": "Palavras-chave C: _Decimal32 (desde C23)"
+      },
+      {
+       "path": "keyword/_Decimal64",
+       "label": "Palavras-chave C: _Decimal64 (desde C23)"
+      },
+      {
+       "path": "keyword/_Generic",
+       "label": "Palavras-chave C: _Generic (desde C11)"
+      },
+      {
+       "path": "keyword/_Imaginary",
+       "label": "Palavras-chave C: _Imaginary (desde C99)"
+      },
+      {
+       "path": "keyword/_Noreturn",
+       "label": "Palavras-chave C: _Noreturn (desde C11)(obsoleto em C23)"
+      },
+      {
+       "path": "keyword/_Static_assert",
+       "label": "Palavras-chave C: _Static_assert (desde C11)(obsoleto em C23)"
+      },
+      {
+       "path": "keyword/_Thread_local",
+       "label": "Palavras-chave C: _Thread_local (desde C11)(obsoleto em C23)"
+      },
+      {
+       "path": "keyword/while",
+       "label": "Palavras-chave C: `while`"
+      },
+      {
+       "path": "keyword/alignas",
+       "label": "Palavras-chave C: alignas (desde C23)"
+      },
+      {
+       "path": "keyword/alignof",
+       "label": "Palavras-chave C: alignof (desde C23)"
+      },
+      {
+       "path": "keyword/auto",
+       "label": "Palavras-chave C: auto"
+      },
+      {
+       "path": "keyword/bool",
+       "label": "Palavras-chave C: bool (desde C23)"
+      },
+      {
+       "path": "keyword/break",
+       "label": "Palavras-chave C: break"
+      },
+      {
+       "path": "keyword/case",
+       "label": "Palavras-chave C: case"
+      },
+      {
+       "path": "keyword/char",
+       "label": "Palavras-chave C: char"
+      },
+      {
+       "path": "keyword/const",
+       "label": "Palavras-chave C: const"
+      },
+      {
+       "path": "keyword/constexpr",
+       "label": "Palavras-chave C: constexpr (desde C23)"
+      },
+      {
+       "path": "keyword/continue",
+       "label": "Palavras-chave C: continue"
+      },
+      {
+       "path": "keyword/default",
+       "label": "Palavras-chave C: default"
+      },
+      {
+       "path": "keyword/do",
+       "label": "Palavras-chave C: do"
+      },
+      {
+       "path": "keyword/double",
+       "label": "Palavras-chave C: double"
+      },
+      {
+       "path": "keyword/else",
+       "label": "Palavras-chave C: else"
+      },
+      {
+       "path": "keyword/enum",
+       "label": "Palavras-chave C: enum"
+      },
+      {
+       "path": "keyword/extern",
+       "label": "Palavras-chave C: extern"
+      },
+      {
+       "path": "keyword/false",
+       "label": "Palavras-chave C: false (desde C23)"
+      },
+      {
+       "path": "keyword/float",
+       "label": "Palavras-chave C: float"
+      },
+      {
+       "path": "keyword/for",
+       "label": "Palavras-chave C: for"
+      },
+      {
+       "path": "keyword/fortran",
+       "label": "Palavras-chave C: fortran"
+      },
+      {
+       "path": "keyword/goto",
+       "label": "Palavras-chave C: goto"
+      },
+      {
+       "path": "keyword/if",
+       "label": "Palavras-chave C: if"
+      },
+      {
+       "path": "keyword/inline",
+       "label": "Palavras-chave C: inline (desde C99)"
+      },
+      {
+       "path": "keyword/int",
+       "label": "Palavras-chave C: int"
+      },
+      {
+       "path": "keyword/long",
+       "label": "Palavras-chave C: long"
+      },
+      {
+       "path": "keyword/nullptr",
+       "label": "Palavras-chave C: nullptr (desde C23)"
+      },
+      {
+       "path": "keyword/register",
+       "label": "Palavras-chave C: register"
+      },
+      {
+       "path": "keyword/restrict",
+       "label": "Palavras-chave C: restrict (desde C99)"
+      },
+      {
+       "path": "keyword/return",
+       "label": "Palavras-chave C: return"
+      },
+      {
+       "path": "keyword/short",
+       "label": "Palavras-chave C: short"
+      },
+      {
+       "path": "keyword/signed",
+       "label": "Palavras-chave C: signed"
+      },
+      {
+       "path": "keyword/sizeof",
+       "label": "Palavras-chave C: sizeof"
+      },
+      {
+       "path": "keyword/static",
+       "label": "Palavras-chave C: static"
+      },
+      {
+       "path": "keyword/static_assert",
+       "label": "Palavras-chave C: static_assert (desde C23)"
+      },
+      {
+       "path": "keyword/struct",
+       "label": "Palavras-chave C: struct"
+      },
+      {
+       "path": "keyword/switch",
+       "label": "Palavras-chave C: switch"
+      },
+      {
+       "path": "keyword/thread_local",
+       "label": "Palavras-chave C: thread_local (desde C23)"
+      },
+      {
+       "path": "keyword/true",
+       "label": "Palavras-chave C: true (desde C23)"
+      },
+      {
+       "path": "keyword/typedef",
+       "label": "Palavras-chave C: typedef"
+      },
+      {
+       "path": "keyword/typeof",
+       "label": "Palavras-chave C: typeof (desde C23)"
+      },
+      {
+       "path": "keyword/typeof_unqual",
+       "label": "Palavras-chave C: typeof_unqual (desde C23)"
+      },
+      {
+       "path": "keyword/union",
+       "label": "Palavras-chave C: union"
+      },
+      {
+       "path": "keyword/unsigned",
+       "label": "Palavras-chave C: unsigned"
+      },
+      {
+       "path": "keyword/void",
+       "label": "Palavras-chave C: void"
+      },
+      {
+       "path": "keyword/volatile",
+       "label": "Palavras-chave C: volatile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "preprocessor",
+   "label": "Pre-processador",
+   "icon": "Hash",
+   "groups": [
+    {
+     "label": "Pre-processador",
+     "items": [
+      {
+       "path": "preprocessor",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "preprocessor/impl",
+       "label": "Controle de comportamento definido pela implementação"
+      },
+      {
+       "path": "preprocessor/error",
+       "label": "Diretivas de diagnóstico"
+      },
+      {
+       "path": "preprocessor/conditional",
+       "label": "Inclusão condicional"
+      },
+      {
+       "path": "preprocessor/include",
+       "label": "Inclusão de arquivo fonte"
+      },
+      {
+       "path": "preprocessor/embed",
+       "label": "Inclusão de recurso binário (desde C23)"
+      },
+      {
+       "path": "preprocessor/line",
+       "label": "Informações de nome de arquivo e linha"
+      },
+      {
+       "path": "preprocessor/replace",
+       "label": "Substituindo macros de texto"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "label": "Tipos",
+   "icon": "Binary",
+   "groups": [
+    {
+     "label": "Tipos",
+     "items": [
+      {
+       "path": "types",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "types/limits/FLT_EVAL_METHOD",
+       "label": "FLT_EVAL_METHOD"
+      },
+      {
+       "path": "types/limits/FLT_ROUNDS",
+       "label": "FLT_ROUNDS"
+      },
+      {
+       "path": "types/limits",
+       "label": "Limites numéricos"
+      },
+      {
+       "path": "types/max_align_t",
+       "label": "max_align_t"
+      },
+      {
+       "path": "types/NULL",
+       "label": "NULL"
+      },
+      {
+       "path": "types/nullptr_t",
+       "label": "nullptr_t"
+      },
+      {
+       "path": "types/offsetof",
+       "label": "offsetof"
+      },
+      {
+       "path": "types/ptrdiff_t",
+       "label": "ptrdiff_t"
+      },
+      {
+       "path": "types/size_t",
+       "label": "size_t"
+      },
+      {
+       "path": "types/integer",
+       "label": "Tipos inteiros de largura fixa (desde C99)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "io",
+   "label": "Entrada/Saida (stdio)",
+   "icon": "FileText",
+   "groups": [
+    {
+     "label": "Entrada/Saida (stdio)",
+     "items": [
+      {
+       "path": "io",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "io/clearerr",
+       "label": "clearerr"
+      },
+      {
+       "path": "io/fclose",
+       "label": "fclose"
+      },
+      {
+       "path": "io/feof",
+       "label": "feof"
+      },
+      {
+       "path": "io/ferror",
+       "label": "ferror"
+      },
+      {
+       "path": "io/fflush",
+       "label": "fflush"
+      },
+      {
+       "path": "io/fgetc",
+       "label": "fgetc, getc"
+      },
+      {
+       "path": "io/fgetpos",
+       "label": "fgetpos"
+      },
+      {
+       "path": "io/fgets",
+       "label": "fgets"
+      },
+      {
+       "path": "io/fgetwc",
+       "label": "fgetwc, getwc"
+      },
+      {
+       "path": "io/fgetws",
+       "label": "fgetws"
+      },
+      {
+       "path": "io/FILE",
+       "label": "FILE"
+      },
+      {
+       "path": "io/fopen",
+       "label": "fopen, fopen_s"
+      },
+      {
+       "path": "io/fpos_t",
+       "label": "fpos_t"
+      },
+      {
+       "path": "io/fputc",
+       "label": "fputc, putc"
+      },
+      {
+       "path": "io/putc",
+       "label": "fputc, putc"
+      },
+      {
+       "path": "io/fputs",
+       "label": "fputs"
+      },
+      {
+       "path": "io/fputwc",
+       "label": "fputwc, putwc"
+      },
+      {
+       "path": "io/fputws",
+       "label": "fputws"
+      },
+      {
+       "path": "io/fread",
+       "label": "fread"
+      },
+      {
+       "path": "io/freopen",
+       "label": "freopen, freopen_s"
+      },
+      {
+       "path": "io/fseek",
+       "label": "fseek"
+      },
+      {
+       "path": "io/fsetpos",
+       "label": "fsetpos"
+      },
+      {
+       "path": "io/ftell",
+       "label": "ftell"
+      },
+      {
+       "path": "io/fwide",
+       "label": "fwide"
+      },
+      {
+       "path": "io/fwrite",
+       "label": "fwrite"
+      },
+      {
+       "path": "io/getchar",
+       "label": "getchar"
+      },
+      {
+       "path": "io/gets",
+       "label": "gets, gets_s"
+      },
+      {
+       "path": "io/getwchar",
+       "label": "getwchar"
+      },
+      {
+       "path": "io/perror",
+       "label": "perror"
+      },
+      {
+       "path": "io/fprintf",
+       "label": "printf, fprintf, sprintf, snprintf, printf_s, fprintf_s, sprintf_s, snprintf_s"
+      },
+      {
+       "path": "io/putchar",
+       "label": "putchar"
+      },
+      {
+       "path": "io/puts",
+       "label": "puts"
+      },
+      {
+       "path": "io/putwchar",
+       "label": "putwchar"
+      },
+      {
+       "path": "io/remove",
+       "label": "remove"
+      },
+      {
+       "path": "io/rename",
+       "label": "rename"
+      },
+      {
+       "path": "io/rewind",
+       "label": "rewind"
+      },
+      {
+       "path": "io/fscanf",
+       "label": "scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s"
+      },
+      {
+       "path": "io/setbuf",
+       "label": "setbuf"
+      },
+      {
+       "path": "io/setvbuf",
+       "label": "setvbuf"
+      },
+      {
+       "path": "io/std_streams",
+       "label": "stdin, stdout, stderr"
+      },
+      {
+       "path": "io/tmpfile",
+       "label": "tmpfile, tmpfile_s"
+      },
+      {
+       "path": "io/tmpnam",
+       "label": "tmpnam, tmpnam_s"
+      },
+      {
+       "path": "io/ungetc",
+       "label": "ungetc"
+      },
+      {
+       "path": "io/ungetwc",
+       "label": "ungetwc"
+      },
+      {
+       "path": "io/vfprintf",
+       "label": "vprintf, vfprintf, vsprintf, vsnprintf, vprintf_s, vfprintf_s, vsprintf_s, vsnpr"
+      },
+      {
+       "path": "io/vfscanf",
+       "label": "vscanf, vfscanf, vsscanf, vscanf_s, vfscanf_s, vsscanf_s"
+      },
+      {
+       "path": "io/vfwprintf",
+       "label": "vwprintf, vfwprintf, vswprintf, vwprintf_s, vfwprintf_s, vswprintf_s, vsnwprintf"
+      },
+      {
+       "path": "io/vfwscanf",
+       "label": "vwscanf, vfwscanf, vswscanf, vwscanf_s, vfwscanf_s, vswscanf_s"
+      },
+      {
+       "path": "io/fwprintf",
+       "label": "wprintf, fwprintf, swprintf, wprintf_s, fwprintf_s, swprintf_s, snwprintf_s"
+      },
+      {
+       "path": "io/fwscanf",
+       "label": "wscanf, fwscanf, swscanf, wscanf_s, fwscanf_s, swscanf_s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "string",
+   "label": "Strings e Caracteres",
+   "icon": "Type",
+   "groups": [
+    {
+     "label": "Strings e Caracteres",
+     "items": [
+      {
+       "path": "string",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "string/byte/atof",
+       "label": "atof"
+      },
+      {
+       "path": "string/byte/atoi",
+       "label": "atoi, atol, atoll"
+      },
+      {
+       "path": "string/multibyte/btowc",
+       "label": "btowc"
+      },
+      {
+       "path": "string/multibyte/c16rtomb",
+       "label": "c16rtomb"
+      },
+      {
+       "path": "string/multibyte/c32rtomb",
+       "label": "c32rtomb"
+      },
+      {
+       "path": "string/multibyte/c8rtomb",
+       "label": "c8rtomb"
+      },
+      {
+       "path": "string/multibyte/char16_t",
+       "label": "char16_t"
+      },
+      {
+       "path": "string/multibyte/char32_t",
+       "label": "char32_t"
+      },
+      {
+       "path": "string/multibyte/char8_t",
+       "label": "char8_t"
+      },
+      {
+       "path": "string/byte/isalnum",
+       "label": "isalnum"
+      },
+      {
+       "path": "string/byte/isalpha",
+       "label": "isalpha"
+      },
+      {
+       "path": "string/byte/isblank",
+       "label": "isblank"
+      },
+      {
+       "path": "string/byte/iscntrl",
+       "label": "iscntrl"
+      },
+      {
+       "path": "string/byte/isdigit",
+       "label": "isdigit"
+      },
+      {
+       "path": "string/byte/isgraph",
+       "label": "isgraph"
+      },
+      {
+       "path": "string/byte/islower",
+       "label": "islower"
+      },
+      {
+       "path": "string/byte/isprint",
+       "label": "isprint"
+      },
+      {
+       "path": "string/byte/ispunct",
+       "label": "ispunct"
+      },
+      {
+       "path": "string/byte/isspace",
+       "label": "isspace"
+      },
+      {
+       "path": "string/byte/isupper",
+       "label": "isupper"
+      },
+      {
+       "path": "string/wide/iswalnum",
+       "label": "iswalnum"
+      },
+      {
+       "path": "string/wide/iswalpha",
+       "label": "iswalpha"
+      },
+      {
+       "path": "string/wide/iswblank",
+       "label": "iswblank"
+      },
+      {
+       "path": "string/wide/iswcntrl",
+       "label": "iswcntrl"
+      },
+      {
+       "path": "string/wide/iswctype",
+       "label": "iswctype"
+      },
+      {
+       "path": "string/wide/iswdigit",
+       "label": "iswdigit"
+      },
+      {
+       "path": "string/wide/iswgraph",
+       "label": "iswgraph"
+      },
+      {
+       "path": "string/wide/iswlower",
+       "label": "iswlower"
+      },
+      {
+       "path": "string/wide/iswprint",
+       "label": "iswprint"
+      },
+      {
+       "path": "string/wide/iswpunct",
+       "label": "iswpunct"
+      },
+      {
+       "path": "string/wide/iswspace",
+       "label": "iswspace"
+      },
+      {
+       "path": "string/wide/iswupper",
+       "label": "iswupper"
+      },
+      {
+       "path": "string/wide/iswxdigit",
+       "label": "iswxdigit"
+      },
+      {
+       "path": "string/byte/isxdigit",
+       "label": "isxdigit"
+      },
+      {
+       "path": "string/multibyte/mblen",
+       "label": "mblen"
+      },
+      {
+       "path": "string/multibyte/mbrlen",
+       "label": "mbrlen"
+      },
+      {
+       "path": "string/multibyte/mbrtoc16",
+       "label": "mbrtoc16"
+      },
+      {
+       "path": "string/multibyte/mbrtoc32",
+       "label": "mbrtoc32"
+      },
+      {
+       "path": "string/multibyte/mbrtoc8",
+       "label": "mbrtoc8"
+      },
+      {
+       "path": "string/multibyte/mbrtowc",
+       "label": "mbrtowc"
+      },
+      {
+       "path": "string/multibyte/mbsinit",
+       "label": "mbsinit"
+      },
+      {
+       "path": "string/multibyte/mbsrtowcs",
+       "label": "mbsrtowcs, mbsrtowcs_s"
+      },
+      {
+       "path": "string/multibyte/mbstate_t",
+       "label": "mbstate_t"
+      },
+      {
+       "path": "string/multibyte/mbstowcs",
+       "label": "mbstowcs, mbstowcs_s"
+      },
+      {
+       "path": "string/multibyte/mbtowc",
+       "label": "mbtowc"
+      },
+      {
+       "path": "string/byte/memccpy",
+       "label": "memccpy"
+      },
+      {
+       "path": "string/byte/memchr",
+       "label": "memchr"
+      },
+      {
+       "path": "string/byte/memcmp",
+       "label": "memcmp"
+      },
+      {
+       "path": "string/byte/memcpy",
+       "label": "memcpy, memcpy_s"
+      },
+      {
+       "path": "string/byte/memmove",
+       "label": "memmove, memmove_s"
+      },
+      {
+       "path": "string/byte/memset",
+       "label": "memset, memset_explicit, memset_s"
+      },
+      {
+       "path": "string/byte/strcat",
+       "label": "strcat, strcat_s"
+      },
+      {
+       "path": "string/byte/strchr",
+       "label": "strchr"
+      },
+      {
+       "path": "string/byte/strcmp",
+       "label": "strcmp"
+      },
+      {
+       "path": "string/byte/strcoll",
+       "label": "strcoll"
+      },
+      {
+       "path": "string/byte/strcpy",
+       "label": "strcpy, strcpy_s"
+      },
+      {
+       "path": "string/byte/strcspn",
+       "label": "strcspn"
+      },
+      {
+       "path": "string/byte/strdup",
+       "label": "strdup"
+      },
+      {
+       "path": "string/byte/strerror",
+       "label": "strerror, strerror_s, strerrorlen_s"
+      },
+      {
+       "path": "string/byte/strfromf",
+       "label": "strfromf, strfromd, strfroml"
+      },
+      {
+       "path": "string/byte",
+       "label": "Strings de bytes terminadas em nulo"
+      },
+      {
+       "path": "string/wide",
+       "label": "Strings largas terminadas em nulo"
+      },
+      {
+       "path": "string/multibyte",
+       "label": "Strings multibyte terminadas em nulo"
+      },
+      {
+       "path": "string/byte/strlen",
+       "label": "strlen, strnlen_s"
+      },
+      {
+       "path": "string/byte/strncat",
+       "label": "strncat, strncat_s"
+      },
+      {
+       "path": "string/byte/strncmp",
+       "label": "strncmp"
+      },
+      {
+       "path": "string/byte/strncpy",
+       "label": "strncpy, strncpy_s"
+      },
+      {
+       "path": "string/byte/strndup",
+       "label": "strndup"
+      },
+      {
+       "path": "string/byte/strpbrk",
+       "label": "strpbrk"
+      },
+      {
+       "path": "string/byte/strrchr",
+       "label": "strrchr"
+      },
+      {
+       "path": "string/byte/strspn",
+       "label": "strspn"
+      },
+      {
+       "path": "string/byte/strstr",
+       "label": "strstr"
+      },
+      {
+       "path": "string/byte/strtof",
+       "label": "strtof, strtod, strtold"
+      },
+      {
+       "path": "string/byte/strtoimax",
+       "label": "strtoimax, strtoumax"
+      },
+      {
+       "path": "string/byte/strtok",
+       "label": "strtok, strtok_s"
+      },
+      {
+       "path": "string/byte/strtol",
+       "label": "strtol, strtoll"
+      },
+      {
+       "path": "string/byte/strtoul",
+       "label": "strtoul, strtoull"
+      },
+      {
+       "path": "string/byte/strxfrm",
+       "label": "strxfrm"
+      },
+      {
+       "path": "string/byte/tolower",
+       "label": "tolower"
+      },
+      {
+       "path": "string/byte/toupper",
+       "label": "toupper"
+      },
+      {
+       "path": "string/wide/towctrans",
+       "label": "towctrans"
+      },
+      {
+       "path": "string/wide/towlower",
+       "label": "towlower"
+      },
+      {
+       "path": "string/wide/towupper",
+       "label": "towupper"
+      },
+      {
+       "path": "string/multibyte/wcrtomb",
+       "label": "wcrtomb, wcrtomb_s"
+      },
+      {
+       "path": "string/wide/wcscat",
+       "label": "wcscat, wcscat_s"
+      },
+      {
+       "path": "string/wide/wcschr",
+       "label": "wcschr"
+      },
+      {
+       "path": "string/wide/wcscmp",
+       "label": "wcscmp"
+      },
+      {
+       "path": "string/wide/wcscoll",
+       "label": "wcscoll"
+      },
+      {
+       "path": "string/wide/wcscpy",
+       "label": "wcscpy, wcscpy_s"
+      },
+      {
+       "path": "string/wide/wcscspn",
+       "label": "wcscspn"
+      },
+      {
+       "path": "string/wide/wcslen",
+       "label": "wcslen, wcsnlen_s"
+      },
+      {
+       "path": "string/wide/wcsncat",
+       "label": "wcsncat, wcsncat_s"
+      },
+      {
+       "path": "string/wide/wcsncmp",
+       "label": "wcsncmp"
+      },
+      {
+       "path": "string/wide/wcsncpy",
+       "label": "wcsncpy, wcsncpy_s"
+      },
+      {
+       "path": "string/wide/wcspbrk",
+       "label": "wcspbrk"
+      },
+      {
+       "path": "string/wide/wcsrchr",
+       "label": "wcsrchr"
+      },
+      {
+       "path": "string/multibyte/wcsrtombs",
+       "label": "wcsrtombs, wcsrtombs_s"
+      },
+      {
+       "path": "string/wide/wcsspn",
+       "label": "wcsspn"
+      },
+      {
+       "path": "string/wide/wcsstr",
+       "label": "wcsstr"
+      },
+      {
+       "path": "string/wide/wcstof",
+       "label": "wcstof, wcstod, wcstold"
+      },
+      {
+       "path": "string/wide/wcstoimax",
+       "label": "wcstoimax, wcstoumax"
+      },
+      {
+       "path": "string/wide/wcstok",
+       "label": "wcstok, wcstok_s"
+      },
+      {
+       "path": "string/wide/wcstol",
+       "label": "wcstol, wcstoll"
+      },
+      {
+       "path": "string/multibyte/wcstombs",
+       "label": "wcstombs, wcstombs_s"
+      },
+      {
+       "path": "string/wide/wcstoul",
+       "label": "wcstoul, wcstoull"
+      },
+      {
+       "path": "string/wide/wcsxfrm",
+       "label": "wcsxfrm"
+      },
+      {
+       "path": "string/multibyte/wctob",
+       "label": "wctob"
+      },
+      {
+       "path": "string/multibyte/wctomb",
+       "label": "wctomb, wctomb_s"
+      },
+      {
+       "path": "string/wide/wctrans",
+       "label": "wctrans"
+      },
+      {
+       "path": "string/wide/wctype",
+       "label": "wctype"
+      },
+      {
+       "path": "string/wide/wmemchr",
+       "label": "wmemchr"
+      },
+      {
+       "path": "string/wide/wmemcmp",
+       "label": "wmemcmp"
+      },
+      {
+       "path": "string/wide/wmemcpy",
+       "label": "wmemcpy, wmemcpy_s"
+      },
+      {
+       "path": "string/wide/wmemmove",
+       "label": "wmemmove, wmemmove_s"
+      },
+      {
+       "path": "string/wide/wmemset",
+       "label": "wmemset"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "numeric",
+   "label": "Numerico e Matematica",
+   "icon": "Calculator",
+   "groups": [
+    {
+     "label": "Numerico e Matematica",
+     "items": [
+      {
+       "path": "numeric",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "numeric/endian",
+       "label": "__STDC_ENDIAN_LITTLE__, __STDC_ENDIAN_BIG__, __STDC_ENDIAN_NATIVE__"
+      },
+      {
+       "path": "numeric/bit/endian",
+       "label": "__STDC_ENDIAN_LITTLE__, __STDC_ENDIAN_BIG__, __STDC_ENDIAN_NATIVE__"
+      },
+      {
+       "path": "numeric/complex/Complex_I",
+       "label": "_Complex_I"
+      },
+      {
+       "path": "numeric/complex/Imaginary_I",
+       "label": "_Imaginary_I"
+      },
+      {
+       "path": "numeric/math/abs",
+       "label": "abs, labs, llabs, imaxabs"
+      },
+      {
+       "path": "numeric/math/acos",
+       "label": "acos, acosf, acosl"
+      },
+      {
+       "path": "numeric/math/acosh",
+       "label": "acosh, acoshf, acoshl"
+      },
+      {
+       "path": "numeric/fenv",
+       "label": "Ambiente de ponto flutuante"
+      },
+      {
+       "path": "numeric/complex",
+       "label": "Aritmética de números complexos"
+      },
+      {
+       "path": "numeric/math/asin",
+       "label": "asin, asinf, asinl"
+      },
+      {
+       "path": "numeric/math/asinh",
+       "label": "asinh, asinhf, asinhl"
+      },
+      {
+       "path": "numeric/math/atan",
+       "label": "atan, atanf, atanl"
+      },
+      {
+       "path": "numeric/math/atan2",
+       "label": "atan2, atan2f, atan2l"
+      },
+      {
+       "path": "numeric/math/atanh",
+       "label": "atanh, atanhf, atanhl"
+      },
+      {
+       "path": "numeric/complex/cabs",
+       "label": "cabsf, cabs, cabsl"
+      },
+      {
+       "path": "numeric/complex/cacos",
+       "label": "cacosf, cacos, cacosl"
+      },
+      {
+       "path": "numeric/complex/cacosh",
+       "label": "cacoshf, cacosh, cacoshl"
+      },
+      {
+       "path": "numeric/complex/carg",
+       "label": "cargf, carg, cargl"
+      },
+      {
+       "path": "numeric/complex/casin",
+       "label": "casinf, casin, casinl"
+      },
+      {
+       "path": "numeric/complex/casinh",
+       "label": "casinhf, casinh, casinhl"
+      },
+      {
+       "path": "numeric/complex/catan",
+       "label": "catanf, catan, catanl"
+      },
+      {
+       "path": "numeric/complex/catanh",
+       "label": "catanhf, catanh, catanhl"
+      },
+      {
+       "path": "numeric/math/cbrt",
+       "label": "cbrt, cbrtf, cbrtl"
+      },
+      {
+       "path": "numeric/complex/ccos",
+       "label": "ccosf, ccos, ccosl"
+      },
+      {
+       "path": "numeric/complex/ccosh",
+       "label": "ccoshf, ccosh, ccoshl"
+      },
+      {
+       "path": "numeric/math/ceil",
+       "label": "ceil, ceilf, ceill"
+      },
+      {
+       "path": "numeric/complex/cexp",
+       "label": "cexpf, cexp, cexpl"
+      },
+      {
+       "path": "numeric/complex/cimag",
+       "label": "cimagf, cimag, cimagl"
+      },
+      {
+       "path": "numeric/ckd_add",
+       "label": "ckd_add"
+      },
+      {
+       "path": "numeric/ckd_mul",
+       "label": "ckd_mul"
+      },
+      {
+       "path": "numeric/ckd_sub",
+       "label": "ckd_sub"
+      },
+      {
+       "path": "numeric/complex/clog",
+       "label": "clogf, clog, clogl"
+      },
+      {
+       "path": "numeric/complex/CMPLX",
+       "label": "CMPLXF, CMPLX, CMPLXL"
+      },
+      {
+       "path": "numeric/complex/complex",
+       "label": "complex"
+      },
+      {
+       "path": "numeric/complex/conj",
+       "label": "conjf, conj, conjl"
+      },
+      {
+       "path": "numeric/math/copysign",
+       "label": "copysign, copysignf, copysignl"
+      },
+      {
+       "path": "numeric/math/cos",
+       "label": "cos, cosf, cosl"
+      },
+      {
+       "path": "numeric/math/cosh",
+       "label": "cosh, coshf, coshl"
+      },
+      {
+       "path": "numeric/math/cospi",
+       "label": "cospi, cospif, cospil, cospid32, cospid64, cospid128"
+      },
+      {
+       "path": "numeric/complex/cpow",
+       "label": "cpowf, cpow, cpowl"
+      },
+      {
+       "path": "numeric/complex/cproj",
+       "label": "cprojf, cproj, cprojl"
+      },
+      {
+       "path": "numeric/complex/creal",
+       "label": "crealf, creal, creall"
+      },
+      {
+       "path": "numeric/complex/csin",
+       "label": "csinf, csin, csinl"
+      },
+      {
+       "path": "numeric/complex/csinh",
+       "label": "csinhf, csinh, csinhl"
+      },
+      {
+       "path": "numeric/complex/csqrt",
+       "label": "csqrtf, csqrt, csqrtl"
+      },
+      {
+       "path": "numeric/complex/ctan",
+       "label": "ctanf, ctan, ctanl"
+      },
+      {
+       "path": "numeric/complex/ctanh",
+       "label": "ctanhf, ctanh, ctanhl"
+      },
+      {
+       "path": "numeric/math/div",
+       "label": "div, ldiv, lldiv, imaxdiv"
+      },
+      {
+       "path": "numeric/math/erf",
+       "label": "erf, erff, erfl"
+      },
+      {
+       "path": "numeric/math/erfc",
+       "label": "erfc, erfcf, erfcl"
+      },
+      {
+       "path": "numeric/math/exp",
+       "label": "exp, expf, expl"
+      },
+      {
+       "path": "numeric/math/exp2",
+       "label": "exp2, exp2f, exp2l"
+      },
+      {
+       "path": "numeric/math/expm1",
+       "label": "expm1, expm1f, expm1l"
+      },
+      {
+       "path": "numeric/math/fabs",
+       "label": "fabs, fabsf, fabsl, fabsd32, fabsd64, fabsd128"
+      },
+      {
+       "path": "numeric/math/fdim",
+       "label": "fdim, fdimf, fdiml"
+      },
+      {
+       "path": "numeric/fenv/FE_DFL_ENV",
+       "label": "FE_DFL_ENV"
+      },
+      {
+       "path": "numeric/fenv/FE_exceptions",
+       "label": "FE_DIVBYZERO, FE_INEXACT, FE_INVALID, FE_OVERFLOW, FE_UNDERFLOW, FE_ALL_EXCEPT"
+      },
+      {
+       "path": "numeric/fenv/FE_round",
+       "label": "FE_DOWNWARD, FE_TONEAREST, FE_TOWARDZERO, FE_UPWARD"
+      },
+      {
+       "path": "numeric/fenv/feclearexcept",
+       "label": "feclearexcept"
+      },
+      {
+       "path": "numeric/fenv/feenv",
+       "label": "fegetenv, fesetenv"
+      },
+      {
+       "path": "numeric/fenv/feexceptflag",
+       "label": "fegetexceptflag, fesetexceptflag"
+      },
+      {
+       "path": "numeric/fenv/feround",
+       "label": "fegetround, fesetround"
+      },
+      {
+       "path": "numeric/fenv/feholdexcept",
+       "label": "feholdexcept"
+      },
+      {
+       "path": "numeric/fenv/feraiseexcept",
+       "label": "feraiseexcept"
+      },
+      {
+       "path": "numeric/fenv/fetestexcept",
+       "label": "fetestexcept"
+      },
+      {
+       "path": "numeric/fenv/feupdateenv",
+       "label": "feupdateenv"
+      },
+      {
+       "path": "numeric/math/float_t",
+       "label": "float_t, double_t"
+      },
+      {
+       "path": "numeric/math/floor",
+       "label": "floor, floorf, floorl"
+      },
+      {
+       "path": "numeric/math/fma",
+       "label": "fma, fmaf, fmal"
+      },
+      {
+       "path": "numeric/math/fmax",
+       "label": "fmax, fmaxf, fmaxl"
+      },
+      {
+       "path": "numeric/math/fmin",
+       "label": "fmin, fminf, fminl"
+      },
+      {
+       "path": "numeric/math/fmod",
+       "label": "fmod, fmodf, fmodl"
+      },
+      {
+       "path": "numeric/math/FP_categories",
+       "label": "FP_NORMAL, FP_SUBNORMAL, FP_ZERO, FP_INFINITE, FP_NAN"
+      },
+      {
+       "path": "numeric/math/fpclassify",
+       "label": "fpclassify"
+      },
+      {
+       "path": "numeric/math/frexp",
+       "label": "frexp, frexpf, frexpl"
+      },
+      {
+       "path": "numeric/math",
+       "label": "Funções matemáticas comuns"
+      },
+      {
+       "path": "numeric/random",
+       "label": "Geração de números pseudoaleatórios"
+      },
+      {
+       "path": "numeric/math/HUGE_VAL",
+       "label": "HUGE_VALF, HUGE_VAL, HUGE_VALL"
+      },
+      {
+       "path": "numeric/math/hypot",
+       "label": "hypot, hypotf, hypotl"
+      },
+      {
+       "path": "numeric/complex/I",
+       "label": "I"
+      },
+      {
+       "path": "numeric/math/ilogb",
+       "label": "ilogb, ilogbf, ilogbl"
+      },
+      {
+       "path": "numeric/complex/imaginary",
+       "label": "imaginary"
+      },
+      {
+       "path": "numeric/math/INFINITY",
+       "label": "INFINITY"
+      },
+      {
+       "path": "numeric/math/isfinite",
+       "label": "isfinite"
+      },
+      {
+       "path": "numeric/math/isgreater",
+       "label": "isgreater"
+      },
+      {
+       "path": "numeric/math/isgreaterequal",
+       "label": "isgreaterequal"
+      },
+      {
+       "path": "numeric/math/isinf",
+       "label": "isinf"
+      },
+      {
+       "path": "numeric/math/isless",
+       "label": "isless"
+      },
+      {
+       "path": "numeric/math/islessequal",
+       "label": "islessequal"
+      },
+      {
+       "path": "numeric/math/islessgreater",
+       "label": "islessgreater"
+      },
+      {
+       "path": "numeric/math/isnan",
+       "label": "isnan"
+      },
+      {
+       "path": "numeric/math/isnormal",
+       "label": "isnormal"
+      },
+      {
+       "path": "numeric/math/isunordered",
+       "label": "isunordered"
+      },
+      {
+       "path": "numeric/math/ldexp",
+       "label": "ldexp, ldexpf, ldexpl"
+      },
+      {
+       "path": "numeric/math/lgamma",
+       "label": "lgamma, lgammaf, lgammal"
+      },
+      {
+       "path": "numeric/math/log",
+       "label": "log, logf, logl"
+      },
+      {
+       "path": "numeric/math/log10",
+       "label": "log10, log10f, log10l"
+      },
+      {
+       "path": "numeric/math/log1p",
+       "label": "log1p, log1pf, log1pl"
+      },
+      {
+       "path": "numeric/math/log2",
+       "label": "log2, log2f, log2l"
+      },
+      {
+       "path": "numeric/math/logb",
+       "label": "logb, logbf, logbl"
+      },
+      {
+       "path": "numeric/bit_manip",
+       "label": "Manipulação de bits (desde C23)"
+      },
+      {
+       "path": "numeric/tgmath",
+       "label": "Matemática genérica por tipo"
+      },
+      {
+       "path": "numeric/math/math_errhandling",
+       "label": "MATH_ERRNO, MATH_ERREXCEPT, math_errhandling"
+      },
+      {
+       "path": "numeric/math/modf",
+       "label": "modf, modff, modfl"
+      },
+      {
+       "path": "numeric/math/NAN",
+       "label": "NAN"
+      },
+      {
+       "path": "numeric/math/nan.2",
+       "label": "nan, nanf, nanl, nand32, nand64, nand128"
+      },
+      {
+       "path": "numeric/math/nearbyint",
+       "label": "nearbyint, nearbyintf, nearbyintl"
+      },
+      {
+       "path": "numeric/math/nextafter",
+       "label": "nextafter, nextafterf, nextafterl, nexttoward, nexttowardf, nexttowardl"
+      },
+      {
+       "path": "numeric/math/nexttoward",
+       "label": "nextafter, nextafterf, nextafterl, nexttoward, nexttowardf, nexttowardl"
+      },
+      {
+       "path": "numeric/math/pow",
+       "label": "pow, powf, powl"
+      },
+      {
+       "path": "numeric/random/rand",
+       "label": "rand"
+      },
+      {
+       "path": "numeric/random/RAND_MAX",
+       "label": "RAND_MAX"
+      },
+      {
+       "path": "numeric/math/remainder",
+       "label": "remainder, remainderf, remainderl"
+      },
+      {
+       "path": "numeric/math/remquo",
+       "label": "remquo, remquof, remquol"
+      },
+      {
+       "path": "numeric/math/rint",
+       "label": "rint, rintf, rintl, lrint, lrintf, lrintl, llrint, llrintf, llrintl"
+      },
+      {
+       "path": "numeric/math/round",
+       "label": "round, roundf, roundl, lround, lroundf, lroundl, llround, llroundf, llroundl"
+      },
+      {
+       "path": "numeric/math/roundeven",
+       "label": "roundeven, roundevenf, roundevenl"
+      },
+      {
+       "path": "numeric/math/scalbn",
+       "label": "scalbn, scalbnf, scalbnl, scalbln, scalblnf, scalblnl"
+      },
+      {
+       "path": "numeric/math/signbit",
+       "label": "signbit"
+      },
+      {
+       "path": "numeric/math/sin",
+       "label": "sin, sinf, sinl"
+      },
+      {
+       "path": "numeric/math/sinh",
+       "label": "sinh, sinhf, sinhl"
+      },
+      {
+       "path": "numeric/math/sinpi",
+       "label": "sinpi, sinpif, sinpil, sinpid32, sinpid64, sinpid128"
+      },
+      {
+       "path": "numeric/math/sqrt",
+       "label": "sqrt, sqrtf, sqrtl"
+      },
+      {
+       "path": "numeric/random/srand",
+       "label": "srand"
+      },
+      {
+       "path": "numeric/bit/stdc_leading_zeros",
+       "label": "stdc_leading_zeros"
+      },
+      {
+       "path": "numeric/math/tan",
+       "label": "tan, tanf, tanl"
+      },
+      {
+       "path": "numeric/math/tanh",
+       "label": "tanh, tanhf, tanhl"
+      },
+      {
+       "path": "numeric/math/tgamma",
+       "label": "tgamma, tgammaf, tgammal"
+      },
+      {
+       "path": "numeric/math/trunc",
+       "label": "trunc, truncf, truncl"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "memory",
+   "label": "Memoria",
+   "icon": "MemoryStick",
+   "groups": [
+    {
+     "label": "Memoria",
+     "items": [
+      {
+       "path": "memory",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "memory/aligned_alloc",
+       "label": "aligned_alloc"
+      },
+      {
+       "path": "memory/calloc",
+       "label": "calloc"
+      },
+      {
+       "path": "memory/free",
+       "label": "free"
+      },
+      {
+       "path": "memory/free_aligned_sized",
+       "label": "free_aligned_sized"
+      },
+      {
+       "path": "memory/free_sized",
+       "label": "free_sized"
+      },
+      {
+       "path": "memory/malloc",
+       "label": "malloc"
+      },
+      {
+       "path": "memory/realloc",
+       "label": "realloc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "error",
+   "label": "Tratamento de Erros",
+   "icon": "AlertTriangle",
+   "groups": [
+    {
+     "label": "Tratamento de Erros",
+     "items": [
+      {
+       "path": "error",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "error/abort_handler_s",
+       "label": "abort_handler_s"
+      },
+      {
+       "path": "error/assert",
+       "label": "assert"
+      },
+      {
+       "path": "error/errno",
+       "label": "errno"
+      },
+      {
+       "path": "error/ignore_handler_s",
+       "label": "ignore_handler_s"
+      },
+      {
+       "path": "error/errno_macros",
+       "label": "Números de erro"
+      },
+      {
+       "path": "error/set_constraint_handler_s",
+       "label": "set_constraint_handler_s, constraint_handler_t"
+      },
+      {
+       "path": "error/static_assert",
+       "label": "static_assert"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "program",
+   "label": "Utilitarios de Programa",
+   "icon": "Terminal",
+   "groups": [
+    {
+     "label": "Utilitarios de Programa",
+     "items": [
+      {
+       "path": "program",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "program/_Exit",
+       "label": "_Exit"
+      },
+      {
+       "path": "program/abort",
+       "label": "abort"
+      },
+      {
+       "path": "program/at_quick_exit",
+       "label": "at_quick_exit"
+      },
+      {
+       "path": "program/atexit",
+       "label": "atexit"
+      },
+      {
+       "path": "program/exit",
+       "label": "exit"
+      },
+      {
+       "path": "program/EXIT_status",
+       "label": "EXIT_SUCCESS, EXIT_FAILURE"
+      },
+      {
+       "path": "program/getenv",
+       "label": "getenv, getenv_s"
+      },
+      {
+       "path": "program/jmp_buf",
+       "label": "jmp_buf"
+      },
+      {
+       "path": "program/longjmp",
+       "label": "longjmp"
+      },
+      {
+       "path": "program/memalignment",
+       "label": "memalignment"
+      },
+      {
+       "path": "program/quick_exit",
+       "label": "quick_exit"
+      },
+      {
+       "path": "program/raise",
+       "label": "raise"
+      },
+      {
+       "path": "program/setjmp",
+       "label": "setjmp"
+      },
+      {
+       "path": "program/sig_atomic_t",
+       "label": "sig_atomic_t"
+      },
+      {
+       "path": "program/SIG_strategies",
+       "label": "SIG_DFL, SIG_IGN"
+      },
+      {
+       "path": "program/SIG_ERR",
+       "label": "SIG_ERR"
+      },
+      {
+       "path": "program/signal",
+       "label": "signal"
+      },
+      {
+       "path": "program/SIG_types",
+       "label": "SIGTERM, SIGSEGV, SIGINT, SIGILL, SIGABRT, SIGFPE"
+      },
+      {
+       "path": "program/system",
+       "label": "system"
+      },
+      {
+       "path": "program/unreachable",
+       "label": "unreachable"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thread",
+   "label": "Threads",
+   "icon": "Cpu",
+   "groups": [
+    {
+     "label": "Threads",
+     "items": [
+      {
+       "path": "thread",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "thread/ONCE_FLAG_INIT",
+       "label": "call_once, once_flag, ONCE_FLAG_INIT"
+      },
+      {
+       "path": "thread/call_once",
+       "label": "call_once, once_flag, ONCE_FLAG_INIT"
+      },
+      {
+       "path": "thread/cnd_broadcast",
+       "label": "cnd_broadcast"
+      },
+      {
+       "path": "thread/cnd_destroy",
+       "label": "cnd_destroy"
+      },
+      {
+       "path": "thread/cnd_init",
+       "label": "cnd_init"
+      },
+      {
+       "path": "thread/cnd_signal",
+       "label": "cnd_signal"
+      },
+      {
+       "path": "thread/cnd_timedwait",
+       "label": "cnd_timedwait"
+      },
+      {
+       "path": "thread/cnd_wait",
+       "label": "cnd_wait"
+      },
+      {
+       "path": "thread/mtx_destroy",
+       "label": "mtx_destroy"
+      },
+      {
+       "path": "thread/mtx_init",
+       "label": "mtx_init"
+      },
+      {
+       "path": "thread/mtx_lock",
+       "label": "mtx_lock"
+      },
+      {
+       "path": "thread/mtx_types",
+       "label": "mtx_plain, mtx_recursive, mtx_timed"
+      },
+      {
+       "path": "thread/mtx_timedlock",
+       "label": "mtx_timedlock"
+      },
+      {
+       "path": "thread/mtx_trylock",
+       "label": "mtx_trylock"
+      },
+      {
+       "path": "thread/mtx_unlock",
+       "label": "mtx_unlock"
+      },
+      {
+       "path": "thread/thrd_create",
+       "label": "thrd_create"
+      },
+      {
+       "path": "thread/thrd_current",
+       "label": "thrd_current"
+      },
+      {
+       "path": "thread/thrd_detach",
+       "label": "thrd_detach"
+      },
+      {
+       "path": "thread/thrd_equal",
+       "label": "thrd_equal"
+      },
+      {
+       "path": "thread/thrd_exit",
+       "label": "thrd_exit"
+      },
+      {
+       "path": "thread/thrd_join",
+       "label": "thrd_join"
+      },
+      {
+       "path": "thread/thrd_sleep",
+       "label": "thrd_sleep"
+      },
+      {
+       "path": "thread/thrd_errors",
+       "label": "thrd_success, thrd_timedout, thrd_busy, thrd_nomem, thrd_error"
+      },
+      {
+       "path": "thread/thrd_yield",
+       "label": "thrd_yield"
+      },
+      {
+       "path": "thread/thread_local",
+       "label": "thread_local"
+      },
+      {
+       "path": "thread/tss_create",
+       "label": "tss_create"
+      },
+      {
+       "path": "thread/tss_delete",
+       "label": "tss_delete"
+      },
+      {
+       "path": "thread/TSS_DTOR_ITERATIONS",
+       "label": "TSS_DTOR_ITERATIONS"
+      },
+      {
+       "path": "thread/tss_get",
+       "label": "tss_get"
+      },
+      {
+       "path": "thread/tss_set",
+       "label": "tss_set"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atomic",
+   "label": "Operacoes Atomicas",
+   "icon": "Zap",
+   "groups": [
+    {
+     "label": "Operacoes Atomicas",
+     "items": [
+      {
+       "path": "atomic",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "atomic/ATOMIC_LOCK_FREE_consts",
+       "label": "ATOMIC_*_LOCK_FREE"
+      },
+      {
+       "path": "atomic/atomic_compare_exchange",
+       "label": "atomic_compare_exchange_weak, atomic_compare_exchange_strong, atomic_compare_exc"
+      },
+      {
+       "path": "atomic/atomic_exchange",
+       "label": "atomic_exchange, atomic_exchange_explicit"
+      },
+      {
+       "path": "atomic/atomic_fetch_add",
+       "label": "atomic_fetch_add, atomic_fetch_add_explicit"
+      },
+      {
+       "path": "atomic/atomic_fetch_and",
+       "label": "atomic_fetch_and, atomic_fetch_and_explicit"
+      },
+      {
+       "path": "atomic/atomic_fetch_or",
+       "label": "atomic_fetch_or, atomic_fetch_or_explicit"
+      },
+      {
+       "path": "atomic/atomic_fetch_sub",
+       "label": "atomic_fetch_sub, atomic_fetch_sub_explicit"
+      },
+      {
+       "path": "atomic/atomic_fetch_xor",
+       "label": "atomic_fetch_xor, atomic_fetch_xor_explicit"
+      },
+      {
+       "path": "atomic/atomic_flag",
+       "label": "atomic_flag"
+      },
+      {
+       "path": "atomic/atomic_flag_clear",
+       "label": "atomic_flag_clear, atomic_flag_clear_explicit"
+      },
+      {
+       "path": "atomic/ATOMIC_FLAG_INIT",
+       "label": "ATOMIC_FLAG_INIT"
+      },
+      {
+       "path": "atomic/atomic_flag_test_and_set",
+       "label": "atomic_flag_test_and_set, atomic_flag_test_and_set_explicit"
+      },
+      {
+       "path": "atomic/atomic_init",
+       "label": "atomic_init"
+      },
+      {
+       "path": "atomic/atomic_is_lock_free",
+       "label": "atomic_is_lock_free"
+      },
+      {
+       "path": "atomic/atomic_load",
+       "label": "atomic_load, atomic_load_explicit"
+      },
+      {
+       "path": "atomic/atomic_signal_fence",
+       "label": "atomic_signal_fence"
+      },
+      {
+       "path": "atomic/atomic_store",
+       "label": "atomic_store, atomic_store_explicit"
+      },
+      {
+       "path": "atomic/atomic_thread_fence",
+       "label": "atomic_thread_fence"
+      },
+      {
+       "path": "atomic/ATOMIC_VAR_INIT",
+       "label": "ATOMIC_VAR_INIT"
+      },
+      {
+       "path": "atomic/kill_dependency",
+       "label": "kill_dependency"
+      },
+      {
+       "path": "atomic/memory_order",
+       "label": "memory_order"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chrono",
+   "label": "Data e Hora",
+   "icon": "Clock",
+   "groups": [
+    {
+     "label": "Data e Hora",
+     "items": [
+      {
+       "path": "chrono",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "chrono/asctime",
+       "label": "asctime, asctime_s"
+      },
+      {
+       "path": "chrono/clock",
+       "label": "clock"
+      },
+      {
+       "path": "chrono/clock_t",
+       "label": "clock_t"
+      },
+      {
+       "path": "chrono/CLOCKS_PER_SEC",
+       "label": "CLOCKS_PER_SEC"
+      },
+      {
+       "path": "chrono/ctime",
+       "label": "ctime, ctime_s"
+      },
+      {
+       "path": "chrono/difftime",
+       "label": "difftime"
+      },
+      {
+       "path": "chrono/gmtime",
+       "label": "gmtime, gmtime_r, gmtime_s"
+      },
+      {
+       "path": "chrono/localtime",
+       "label": "localtime, localtime_r, localtime_s"
+      },
+      {
+       "path": "chrono/mktime",
+       "label": "mktime"
+      },
+      {
+       "path": "chrono/strftime",
+       "label": "strftime"
+      },
+      {
+       "path": "chrono/time",
+       "label": "time"
+      },
+      {
+       "path": "chrono/time_t",
+       "label": "time_t"
+      },
+      {
+       "path": "chrono/timespec",
+       "label": "timespec"
+      },
+      {
+       "path": "chrono/timespec_get",
+       "label": "timespec_get"
+      },
+      {
+       "path": "chrono/timespec_getres",
+       "label": "timespec_getres"
+      },
+      {
+       "path": "chrono/tm",
+       "label": "tm"
+      },
+      {
+       "path": "chrono/wcsftime",
+       "label": "wcsftime"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "locale",
+   "label": "Localizacao",
+   "icon": "Globe",
+   "groups": [
+    {
+     "label": "Localizacao",
+     "items": [
+      {
+       "path": "locale",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "locale/LC_categories",
+       "label": "LC_ALL, LC_COLLATE, LC_CTYPE, LC_MONETARY, LC_NUMERIC, LC_TIME"
+      },
+      {
+       "path": "locale/lconv",
+       "label": "lconv"
+      },
+      {
+       "path": "locale/localeconv",
+       "label": "localeconv"
+      },
+      {
+       "path": "locale/setlocale",
+       "label": "setlocale"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "algorithm",
+   "label": "Algoritmos",
+   "icon": "ListOrdered",
+   "groups": [
+    {
+     "label": "Algoritmos",
+     "items": [
+      {
+       "path": "algorithm",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "algorithm/bsearch",
+       "label": "bsearch, bsearch_s"
+      },
+      {
+       "path": "algorithm/qsort",
+       "label": "qsort, qsort_s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "variadic",
+   "label": "Funcoes Variadicas",
+   "icon": "MoreHorizontal",
+   "groups": [
+    {
+     "label": "Funcoes Variadicas",
+     "items": [
+      {
+       "path": "variadic",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "variadic/va_arg",
+       "label": "va_arg"
+      },
+      {
+       "path": "variadic/va_copy",
+       "label": "va_copy"
+      },
+      {
+       "path": "variadic/va_end",
+       "label": "va_end"
+      },
+      {
+       "path": "variadic/va_list",
+       "label": "va_list"
+      },
+      {
+       "path": "variadic/va_start",
+       "label": "va_start"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "experimental",
+   "label": "Experimental",
+   "icon": "FlaskConical",
+   "groups": [
+    {
+     "label": "Experimental",
+     "items": [
+      {
+       "path": "experimental",
+       "label": "Visao Geral"
+      },
+      {
+       "path": "experimental/dynamic/asprintf",
+       "label": "asprintf, aswprintf, vasprintf, vaswprintf"
+      },
+      {
+       "path": "experimental/fpext1/nextup",
+       "label": "c/experimental/fpext1/nextup"
+      },
+      {
+       "path": "experimental/dynamic",
+       "label": "Extensões de memória dinâmica"
+      },
+      {
+       "path": "experimental/fpext1",
+       "label": "Extensões de ponto flutuante parte 1: aritmética de ponto flutuante binária"
+      },
+      {
+       "path": "experimental/fpext4",
+       "label": "Extensões de ponto flutuante parte 4: funções suplementares"
+      },
+      {
+       "path": "experimental/dynamic/getline",
+       "label": "getline, getwline, getdelim, getwdelim"
+      },
+      {
+       "path": "experimental/dynamic/strdup",
+       "label": "strdup"
+      },
+      {
+       "path": "experimental/dynamic/strndup",
+       "label": "strndup"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 623
+}
